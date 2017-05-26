@@ -3,6 +3,7 @@
  * Создать свой enum с конструкторами для элементов, а также хотя бы с одним методом.
  * Продемонстрировать работу собственного enum в демо-классе, при этом используя основные стандартные методы enum-ов.
  */
+//DO NOT FORGET TO delete extra tabs, spaces and enters
 public enum EnumNote {
     DO("Do", 1),
     RE("Re", 2),
@@ -16,13 +17,12 @@ public enum EnumNote {
     private int noteNumber;
     private boolean hasDiezKey;
 
-    EnumNote(String noteName, int noteNumber){
+    EnumNote(String noteName, int noteNumber) {
         this.noteName = noteName;
         this.noteNumber = noteNumber;
-
     }
 
-    public String getNoteName(){
+    public String getNoteName() {
         return this.noteName;
     }
 
